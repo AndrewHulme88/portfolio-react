@@ -5,8 +5,8 @@ const Home = () => {
   return (
     <div>
       <Navbar />
-      <div className="home-area">
-        <div className="home-container">
+      <div className="content-area">
+        <div className="container">
           <div className="home-content">
             <h1>Hey! I'm <span className="color-blue">Andrew</span></h1>
             <p>Software developer</p>
