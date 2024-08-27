@@ -5,7 +5,6 @@ body {
   color: #fff;
 }
 
-/* Navbar Styles */
 .navbar {
   position: fixed;
   top: 0;
@@ -40,24 +39,20 @@ body {
   color: #64ffda;
 }
 
-/* Hover effect for navigation links */
 .nav-link:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
 }
 
-/* Content area */
 .content-area {
-  margin-left: 15%; /* To match the navbar width */
+  margin-left: 15%;
   padding: 20px;
 }
 
-/* Apply this class to your main content containers */
 .container {
   padding: 20px;
 }
 
-/* Additional styles for your content sections if needed */
 .home-content, .page-body, .portfolio-card {
   padding: 20px;
   background: rgba(0, 0, 0, 0.1);
