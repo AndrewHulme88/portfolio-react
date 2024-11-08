@@ -4,6 +4,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const App = () => {
   return (

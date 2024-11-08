@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const Home = () => {
   return (
@@ -11,7 +12,9 @@ const Home = () => {
             <h1>Hey! I'm <span className="color-blue">Andrew</span></h1>
             <p>Software developer</p>
             <div className="social-icons">
-              {/* Add your social links here */}
+              <a href="https://www.linkedin.com/in/andrew-hulme-b3a649291/"><i className="fab fa-linkedin"></i></a>
+              <a href="#"><i className="fab fa-github"></i></a>
+              <a href="#"><i className="fab fa-slack"></i></a>
             </div>
           </div>
         </div>
